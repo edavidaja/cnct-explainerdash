@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "locale": "en_US.UTF-8",
+  "metadata": {
+    "appmode": "python-dash",
+    "entrypoint": "app"
+  },
+  "python": {
+    "version": "3.10.12",
+    "package_manager": {
+      "name": "pip",
+      "version": "24.0",
+      "package_file": "requirements.txt"
+    }
+  },
+  "files": {
+    "requirements.txt": {
+      "checksum": "77fbc250ca165cd4523bc2cd0a74a7a0"
+    },
+    "app.py": {
+      "checksum": "f1581d6050271ee36b55999d180634a2"
+    },
+    "dashboard.yaml": {
+      "checksum": "a2a660ad9f273567788551151bc1ae4d"
+    },
+    "explainer.joblib": {
+      "checksum": "5c95fdc7fef7156ef374edfbe45e6ab9"
+    }
+  }
+}
